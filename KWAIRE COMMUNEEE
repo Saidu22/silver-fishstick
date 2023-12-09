@@ -1,0 +1,57 @@
+```html
+<div class="container h-p100">
+  <div class="row align-items-center justify-content-md-center h-p100">
+    <div class="col-12">
+      <div class="row justify-content-center g-0">
+        <div class="col-lg-5 col-md-5 col-12">
+          <div class="bg-white rounded10 shadow-lg">
+            <div class="content-top-agile p-20 pb-0">
+              <img src="images/logo.png" style="width:20%;height: auto;">
+              <h2 class="text-primary">Student Portal</h2>
+              <p class="mb-0">Sign in to continue.</p>
+            </div>
+            <div class="p-40">
+              <form method="POST">
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text bg-transparent"><i class="ti-user"></i></span>
+                    <input type="text" class="form-control ps-15 bg-transparent" name="username" placeholder="Username" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text  bg-transparent"><i class="ti-lock"></i></span>
+                    <input type="password" class="form-control ps-15 bg-transparent" name="password" placeholder="Password" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="checkbox">
+                      <input type="checkbox" id="basic_checkbox_1">
+                      <label for="basic_checkbox_1">Remember Me</label>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="fog-pwd text-end">
+                      <a href="javascript:void(0)" class="hover-warning">Forgot pwd?</a>
+                      <br>
+                    </div>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-info mt-10" name="signin">SIGN IN</button>
+                  </div>
+                  <div class="col-12 text-center">
+                  </div>
+                </div>
+              </form>
+              <div class="text-center">
+                <p class="mt-15 mb-0">Do you need a student account? <a href="access_request" class="text-danger ms-5">Request Access</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
